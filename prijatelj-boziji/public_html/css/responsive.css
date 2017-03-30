@@ -1,9 +1,22 @@
 @media(min-width:768px){
-    
+    .registration{
+    padding-left: 400px;
+    }
+   
+    .navbar-nav li a{
+    padding: 15px 8px 15px 4px !important;
+}
+.navbar-default .navbar-collapse{
+    padding:0px ;
+}
+
 }
 
 @media(min-width:992px){
-    
+     .container{
+        width: 980px;
+        box-sizing: initial;
+    }
 }
 
 

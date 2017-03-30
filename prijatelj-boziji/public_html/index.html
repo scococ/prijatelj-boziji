@@ -8,6 +8,7 @@
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
 
@@ -19,188 +20,254 @@
         <![endif]-->
     </head>
     <body>
-        <header style="background: #fff url(css/style-images/bg.png) repeat-x center;">
-            <div class="container" >
-                <div style="background:  url('css/style-images/header-bg.png') no-repeat;">
-                    <div class="header-bar">
-                        <ul class="list-inline  registration ">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registracija    
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <article>
+        <header>
+            <div style="background: url(css/style-images/bg.png)  repeat-x;">
+                <div class="container" >
+                    <div style="background:  url('css/style-images/header-bg.png') no-repeat;">
+                        <div class="header-bar">
+                            <ul class="list-inline  registration ">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registracija <i class="fa fa-caret-down"></i>    
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <article>
+                                                <form>
+                                                    <section class="form-group">
+                                                        <input class="form-control" type="text" name="name"  placeholder="Ime">
+                                                    </section>
+                                                    <section class="form-group">
+                                                        <input class="form-control" type="text" name="lastname"  placeholder="Prezime">
+                                                    </section>
+                                                    <section class="form-group">
+                                                        <input class="form-control" type="email" name="email"  placeholder="E-mail">
+                                                    </section>
+                                                    <section class="form-group">
+                                                        <input class="form-control" type="password" name="password"  placeholder="Lozinka">
+                                                    </section>
+                                                    <section class="form-group">
+                                                        <input class="form-control" type="password" name="repeatpassword"  placeholder="Ponovi lozinku">
+                                                    </section>
+                                                </form>
+                                            </article>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                       role="button" aria-haspopup="true" aria-expanded="false">Prijava <i class="fa fa-caret-down"></i>    
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
                                             <form>
-                                                <section class="form-group">
-                                                    <input class="form-control" type="text" name="name"  placeholder="Ime">
-                                                </section>
-                                                <section class="form-group">
-                                                    <input class="form-control" type="text" name="lastname"  placeholder="Prezime">
-                                                </section>
                                                 <section class="form-group">
                                                     <input class="form-control" type="email" name="email"  placeholder="E-mail">
                                                 </section>
                                                 <section class="form-group">
                                                     <input class="form-control" type="password" name="password"  placeholder="Lozinka">
                                                 </section>
-                                                <section class="form-group">
-                                                    <input class="form-control" type="password" name="repeatpassword"  placeholder="Ponovi lozinku">
-                                                </section>
                                             </form>
-                                        </article>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                   role="button" aria-haspopup="true" aria-expanded="false">Prijava    
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <form>
-                                            <section class="form-group">
-                                                <input class="form-control" type="email" name="email"  placeholder="E-mail">
-                                            </section>
-                                            <section class="form-group">
-                                                <input class="form-control" type="password" name="password"  placeholder="Lozinka">
-                                            </section>
-                                        </form>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Linkovi</a></li>
-                            <li><a href="#">Kontakt</a></li>
-                        </ul>
-                        <ul class="language list-inline pull-right">
-                            <li><a href="#">ЋИР</a></li>
-                            <li><a href="#">LAT</a></li>
-                        </ul>
-                    </div>
-                    <div class="navigation-header" style="background: url('images/header.gif') no-repeat;">
-                        <figure>
-                            <a href="index.html"><img src="images/logo.png" alt=""></a>
-                        </figure>
-                        <form class="pull-right">
-                            <div class="form-group">
-                                <input type="text" name="search" placeholder="Trazi"><i class="fa fa-search"></i>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="navigation-control">
-                        <nav class="navbar navbar-default center-block">
-                            <div>
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Linkovi</a></li>
+                                <li><a href="#">Kontakt</a></li>
+                            </ul>
+                            <ul class="language list-inline pull-right">
+                                <li><a href="#">ЋИР</a></li>
+                                <li><a href="#">LAT</a></li>
+                            </ul>
+                        </div>
+                        <div class="navigation-header" style="background: url('images/header.gif') no-repeat;">
+                            <figure>
+                                <a href="index.html"><img src="images/logo.png" alt=""></a>
+                            </figure>
+                            <form class="pull-right">
+                                <div class="form-group">
+                                    <input type="text" name="search" placeholder="Traži"><i class="fa fa-search"></i>
                                 </div>
-                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                    <ul class="nav navbar-nav ">
-                                        <li><a href="#">Naslovna</a></li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                               role="button" aria-haspopup="true" aria-expanded="false">Fondacija    
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                               role="button" aria-haspopup="true" aria-expanded="false">Vesti i tekstovi    
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                               role="button" aria-haspopup="true" aria-expanded="false">Pouke    
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                               role="button" aria-haspopup="true" aria-expanded="false">Sveto pismo    
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                               role="button" aria-haspopup="true" aria-expanded="false">Filmovi    
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                               role="button" aria-haspopup="true" aria-expanded="false">Knjige    
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                               role="button" aria-haspopup="true" aria-expanded="false">Molitve    
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Muzika</a>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                               role="button" aria-haspopup="true" aria-expanded="false">Galerija    
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </li>
+                            </form>
+                        </div>
+                        <div class="navigation-control">
+                            <nav class="navbar navbar-default">
+                                <div>
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav ">
+                                            <li><a href="#">Naslovna</a></li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   role="button" aria-haspopup="true" aria-expanded="false">Fondacija <i class="fa fa-caret-down"></i>    
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   role="button" aria-haspopup="true" aria-expanded="false">Vesti i tekstovi <i class="fa fa-caret-down"></i>   
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   role="button" aria-haspopup="true" aria-expanded="false">Pouke <i class="fa fa-caret-down"></i>    
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   role="button" aria-haspopup="true" aria-expanded="false">Sveto pismo <i class="fa fa-caret-down"></i>    
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   role="button" aria-haspopup="true" aria-expanded="false">Filmovi <i class="fa fa-caret-down"></i>    
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   role="button" aria-haspopup="true" aria-expanded="false">Knjige <i class="fa fa-caret-down"></i>    
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   role="button" aria-haspopup="true" aria-expanded="false">Molitve <i class="fa fa-caret-down"></i>    
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Muzika</a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   role="button" aria-haspopup="true" aria-expanded="false">Galerija <i class="fa fa-caret-down"></i>    
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                </ul>
+                                            </li>
+                                    </div>
                                 </div>
-                            </div>
-                        </nav>
+                            </nav><!--END OF NAVIGATION-->
+                        </div>
                     </div>
+                    <div class="slider-control">
+                        <div class="slider-large">
+
+                        </div>
+                        <div class="slider-carousel">
+
+                        </div>
+                    </div><!--END OF SLIDER-->
                 </div>
             </div>
         </header>
+        <main class="index-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <article>
+                            <div class="c1">
+                                <section class="gray-bg">
+                                    <h4>Jevanđelje dana</h4>
+                                </section>
+                                <section class="container-body">
+                                    <p>Pročitajte Jevanđelje po <br>Jovanu</p>
+                                    <a href="#">Preslušajte Jevanđelje po <br>Jovanu</a>
+                                </section>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-md-5">
+                        <article>
+                            <div class="c2">
+                                <section class="gray-bg">
+                                    <h4>pouka dana</h4>
+                                </section>
+                                <section class="container-body">
+                                    <p>
+                                        Čovek koji se trudi da spolja izgleda pobožno a nema unutrašnje duhovne siline, njegova dela, doduše, jesu dela ali su mrtva...…
+                                     </p>
+                                    <a href="#">pročitaj sve</a>
+                                </section>
+                            </div>
+                        </article>
+                    </div>
+                    <div class=" col-am-6 col-md-4">
+                        <article>
+                            <div class="sidebar-1">
+                                <section class="gold-bg">
+                                    <h4>zitija svetih</h4>
+                                </section>
+                                <section class="container-body">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <figure>
+                                                    <img src="css/style-images/sveti-aleksije-covek-bozji.jpg" alt="">
+                                                </figure>
+                                            </a>
+                                            <h2><a href="#">Sveti Aleksije Covek Bozji</a></h2>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </main>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
