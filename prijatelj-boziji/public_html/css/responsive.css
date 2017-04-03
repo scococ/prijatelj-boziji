@@ -9,27 +9,29 @@
 .navbar-default .navbar-collapse{
     padding:0px ;
 }
-.index-main .col-md-9, .index-main .col-md-4, .index-main .col-md-8{
-    padding-right: 0px;
+.most-list figure img{
+    width: 100% !important;
+    
 }
-.index-main .col-md-3, .index-main .col-md-8{
-    padding-left: 8px;
+footer{
+     background-size: 5% 100% !important;
 }
-.index-main .col-md-12{
-    padding-right: 10px;
-}
-.index-main .col-md-9{
-    padding-left: 10px;
-}
+
 }
 
 @media(min-width:992px){
      .container{
-        width: 1065px;
+        width: 980px;
         box-sizing: content-box !important;
     }
+    .misionar a:last-of-type{
+    bottom: 20px !important;
+}
+.most-list figure img{
+    max-width: 100% !important;
 }
 
+}
 
 @media(min-width:1200px){
     
