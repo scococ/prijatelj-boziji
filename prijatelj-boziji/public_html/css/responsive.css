@@ -20,19 +20,24 @@ footer{
 }
 
 @media(min-width:992px){
-     .container{
-        width: 980px;
-        box-sizing: content-box !important;
-    }
+     
     .misionar a:last-of-type{
     bottom: 20px !important;
 }
 .most-list figure img{
     max-width: 100% !important;
 }
+.navbar-nav li a{
+    text-align: left !important;
+}
+footer .col-md-3{
+    height: 240px;
+}
 
 }
 
 @media(min-width:1200px){
-    
+    .container{
+        width: 1010px;
+    }
 }
