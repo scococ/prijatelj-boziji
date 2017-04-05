@@ -432,9 +432,7 @@ body{
     background-repeat: no-repeat;
     position: relative;
 }
-._10b4{
-    overflow: hidden !important;
-}
+
 footer{
     background-image: url(style-images/footer-bg.png);
     background-repeat: repeat;
@@ -500,7 +498,7 @@ footer .col-md-3:first-of-type{
     display: inline-block;
     height: 35px;
     width: 35px;
-    border: 1px solid white;
+    border: 1px solid #323232;
     border-radius: 50%;
     text-align: center;
     transition: 1s ease;
