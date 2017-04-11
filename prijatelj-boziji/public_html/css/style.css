@@ -611,7 +611,7 @@ footer .col-md-3:first-of-type{
     font-size: 16px !important;
     top: 0px !important;
     margin: 0px !important;
-    padding: 0px 2px;
+    font-size: 12px !important;
 }
 .pinterest{
     position: relative;
@@ -733,6 +733,8 @@ footer .col-md-3:first-of-type{
     padding-bottom: 16px!important;
     display: block;
 }
+
+
 
 
 

@@ -13,6 +13,14 @@
     width: 100% !important;
     
 }
+.text-frame-2 figure{
+    width: 340px;
+    height: 198px;
+}
+.text-frame-2 figure img{
+    width: 100% !important;
+    display: block !important;
+}
 .comment-post form{
     padding: 15px 20px;
     padding-top: 0px;
@@ -26,6 +34,7 @@
 }
 .comment-post input{
       max-width: 286px;
+      margin-right: 250px;
 }
 .comment-post textarea{
     max-width: 460px;
@@ -54,10 +63,17 @@ footer .col-md-3{
     height: 215px;
 }
 
+
 }
 
 @media(min-width:1200px){
     .container{
-        width: 1010px !important;
+        width: 988px !important;
     }
+    .site-included iframe{
+        width: 960px;
+        overflow: hidden;
+        margin-left: 10px;
+    }
+    
 }
