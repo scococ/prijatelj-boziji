@@ -14,7 +14,6 @@ and open the template in the editor.
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="css/jquery-ui.css" rel="stylesheet" type="text/css"/>
         <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
 
@@ -31,12 +30,20 @@ and open the template in the editor.
                 <div class="row">
                     <div class="col-md-9">
                         <article>
+                            <div class="pagination-site">
+                                <ul class="list-inline">
+                                    <li>Trenutno se nalazite ovde:</li>
+                                    <li><a href="index.html"><span class="fa fa-angle-right"> Naslovna</span></a></li>
+                                    <li><a href="#"><span class="fa fa-angle-right"> Vesti i tekstovi</span></a></li>
+                                    <li><a href="#"><span class="fa fa-angle-right"></span> Vesti</a></li>
+                                </ul>
+                            </div>
                             <h1>Vesti</h1>
                             <div class="text-frame1">
                                 <section>
                                     <h2><a href="/_Ne-gubite-se-u-informacijama/68354">Ne gubite se u informacijama</a></h2>
                                     <figure>
-                                        <img src="images/img1.png" alt="">
+                                        <img src="images/215x125-inf.jpg" alt="">
                                     </figure>
                                     <span class="news-date">11.01.2011</span>
                                     <p class="clearfix">
@@ -45,13 +52,53 @@ and open the template in the editor.
 
                                         <a href="#" class="pull-right">[vise...]</a>
                                     </p>
-                                    <div>
-                                        <ul class="list-inline" style="border: 1px solid red">
-                                            <li><a href="#">fb</a></li>
-                                            <li><a href="#">fb</a></li>
-                                            <li><a href="#">fb</a></li>
-                                            <li><a href="#">fb</a></li>
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <script>window.twttr = (function (d, s, id) {
+                                                        var js, fjs = d.getElementsByTagName(s)[0],
+                                                                t = window.twttr || {};
+                                                        if (d.getElementById(id))
+                                                            return t;
+                                                        js = d.createElement(s);
+                                                        js.id = id;
+                                                        js.src = "https://platform.twitter.com/widgets.js";
+                                                        fjs.parentNode.insertBefore(js, fjs);
+
+                                                        t._e = [];
+                                                        t.ready = function (f) {
+                                                            t._e.push(f);
+                                                        };
+
+                                                        return t;
+                                                    }(document, "script", "twitter-wjs"));</script>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <script src="https://apis.google.com/js/platform.js" async defer></script>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                <script>(function (d, s, id) {
+                                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                                        if (d.getElementById(id))
+                                                            return;
+                                                        js = d.createElement(s);
+                                                        js.id = id;
+                                                        js.src = "//connect.facebook.net/sr_RS/sdk.js#xfbml=1&version=v2.8";
+                                                        fjs.parentNode.insertBefore(js, fjs);
+                                                    }(document, 'script', 'facebook-jssdk'));</script>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
                                         </ul>
+                                        <span class="comments-num pull-right">0</span>
                                     </div>
                                 </section>
                                 <section>
@@ -65,19 +112,431 @@ and open the template in the editor.
                                         kao i prema vrednostima koje se nameću kroz društvene... 
                                         <a href="#" class="pull-right">[vise...]</a>
                                     </p>
-
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
+                                        </ul>
+                                        <span class="comments-num pull-right">0</span>
+                                    </div>  
                                 </section>
                                 <section>
                                     <h2><a href="/_Ne-gubite-se-u-informacijama/68354">Ne gubite se u informacijama</a></h2>
                                     <figure>
-                                        <img src="" alt="">
+                                        <img src="images/215x125-inf.jpg" alt="">
                                     </figure>
                                     <span class="news-date">11.01.2011</span>
-                                    <p>
+                                    <p class="clearfix">
+                                        Patrijarh ruski Kiril pozvao je vernike da se pažljivije odnose prema savremenom protoku informacija, 
+                                        kao i prema vrednostima koje se nameću kroz društvene... <br>
+
+                                        <a href="#" class="pull-right">[vise...]</a>
+                                    </p>
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
+                                        </ul>
+                                        <span class="comments-num pull-right">0</span>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2><a href="/_Ne-gubite-se-u-informacijama/68354">Ne gubite se u informacijama</a></h2>
+                                    <figure>
+                                        <img src="images/215x125-molitva-menja-krv-b.jpeg" alt="">
+                                    </figure>
+                                    <span class="news-date">11.01.2011</span>
+                                    <p class="clearfix">
                                         Patrijarh ruski Kiril pozvao je vernike da se pažljivije odnose prema savremenom protoku informacija, 
                                         kao i prema vrednostima koje se nameću kroz društvene... 
+                                        <a href="#" class="pull-right">[vise...]</a>
                                     </p>
-                                    <a href="#">[vise...]</a>
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
+                                        </ul>
+                                        <span class="comments-num pull-right">0</span>
+                                    </div>  
+                                </section>
+                                <section>
+                                    <h2><a href="/_Ne-gubite-se-u-informacijama/68354">Ne gubite se u informacijama</a></h2>
+                                    <figure>
+                                        <img src="images/215x125-inf.jpg" alt="">
+                                    </figure>
+                                    <span class="news-date">11.01.2011</span>
+                                    <p class="clearfix">
+                                        Patrijarh ruski Kiril pozvao je vernike da se pažljivije odnose prema savremenom protoku informacija, 
+                                        kao i prema vrednostima koje se nameću kroz društvene... <br>
+
+                                        <a href="#" class="pull-right">[vise...]</a>
+                                    </p>
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
+                                        </ul>
+                                        <span class="comments-num pull-right">0</span>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2><a href="/_Ne-gubite-se-u-informacijama/68354">Ne gubite se u informacijama</a></h2>
+                                    <figure>
+                                        <img src="images/215x125-molitva-menja-krv-b.jpeg" alt="">
+                                    </figure>
+                                    <span class="news-date">11.01.2011</span>
+                                    <p class="clearfix">
+                                        Patrijarh ruski Kiril pozvao je vernike da se pažljivije odnose prema savremenom protoku informacija, 
+                                        kao i prema vrednostima koje se nameću kroz društvene... 
+                                        <a href="#" class="pull-right">[vise...]</a>
+                                    </p>
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <script src="https://apis.google.com/js/platform.js" async defer></script>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
+                                        </ul>
+                                        <span class="comments-num pull-right">0</span>
+                                    </div>  
+                                </section>
+                                <section>
+                                    <h2><a href="/_Ne-gubite-se-u-informacijama/68354">Ne gubite se u informacijama</a></h2>
+                                    <figure>
+                                        <img src="images/215x125-inf.jpg" alt="">
+                                    </figure>
+                                    <span class="news-date">11.01.2011</span>
+                                    <p class="clearfix">
+                                        Patrijarh ruski Kiril pozvao je vernike da se pažljivije odnose prema savremenom protoku informacija, 
+                                        kao i prema vrednostima koje se nameću kroz društvene... <br>
+
+                                        <a href="#" class="pull-right">[vise...]</a>
+                                    </p>
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
+                                        </ul>
+                                        <span class="comments-num pull-right">0</span>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2><a href="/_Ne-gubite-se-u-informacijama/68354">Ne gubite se u informacijama</a></h2>
+                                    <figure>
+                                        <img src="images/215x125-molitva-menja-krv-b.jpeg" alt="">
+                                    </figure>
+                                    <span class="news-date">11.01.2011</span>
+                                    <p class="clearfix">
+                                        Patrijarh ruski Kiril pozvao je vernike da se pažljivije odnose prema savremenom protoku informacija, 
+                                        kao i prema vrednostima koje se nameću kroz društvene... 
+                                        <a href="#" class="pull-right">[vise...]</a>
+                                    </p>
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                    }(document, 'script', 'facebook-jssdk'));</script>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
+                                        </ul>
+                                        <span class="comments-num pull-right">0</span>
+                                    </div>  
+                                </section>
+                                <section>
+                                    <h2><a href="/_Ne-gubite-se-u-informacijama/68354">Ne gubite se u informacijama</a></h2>
+                                    <figure>
+                                        <img src="images/215x125-inf.jpg" alt="">
+                                    </figure>
+                                    <span class="news-date">11.01.2011</span>
+                                    <p class="clearfix">
+                                        Patrijarh ruski Kiril pozvao je vernike da se pažljivije odnose prema savremenom protoku informacija, 
+                                        kao i prema vrednostima koje se nameću kroz društvene... <br>
+
+                                        <a href="#" class="pull-right">[vise...]</a>
+                                    </p>
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
+                                        </ul>
+                                        <span class="comments-num pull-right">0</span>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2><a href="/_Ne-gubite-se-u-informacijama/68354">Ne gubite se u informacijama</a></h2>
+                                    <figure>
+                                        <img src="images/215x125-molitva-menja-krv-b.jpeg" alt="">
+                                    </figure>
+                                    <span class="news-date">11.01.2011</span>
+                                    <p class="clearfix">
+                                        Patrijarh ruski Kiril pozvao je vernike da se pažljivije odnose prema savremenom protoku informacija, 
+                                        kao i prema vrednostima koje se nameću kroz društvene... 
+                                        <a href="#" class="pull-right">[vise...]</a>
+                                    </p>
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
+                                        </ul>
+                                        <span class="comments-num pull-right">0</span>
+                                    </div>  
+                                </section>
+                                <section>
+                                    <h2><a href="/_Ne-gubite-se-u-informacijama/68354">Ne gubite se u informacijama</a></h2>
+                                    <figure>
+                                        <img src="images/215x125-inf.jpg" alt="">
+                                    </figure>
+                                    <span class="news-date">11.01.2011</span>
+                                    <p class="clearfix">
+                                        Patrijarh ruski Kiril pozvao je vernike da se pažljivije odnose prema savremenom protoku informacija, 
+                                        kao i prema vrednostima koje se nameću kroz društvene... <br>
+
+                                        <a href="#" class="pull-right">[vise...]</a>
+                                    </p>
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
+                                        </ul>
+                                        <span class="comments-num pull-right">0</span>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2><a href="/_Ne-gubite-se-u-informacijama/68354">Ne gubite se u informacijama</a></h2>
+                                    <figure>
+                                        <img src="images/215x125-molitva-menja-krv-b.jpeg" alt="">
+                                    </figure>
+                                    <span class="news-date">11.01.2011</span>
+                                    <p class="clearfix">
+                                        Patrijarh ruski Kiril pozvao je vernike da se pažljivije odnose prema savremenom protoku informacija, 
+                                        kao i prema vrednostima koje se nameću kroz društvene... 
+                                        <a href="#" class="pull-right">[vise...]</a>
+                                    </p>
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
+                                        </ul>
+                                        <span class="comments-num pull-right">0</span>
+                                    </div>  
+                                </section>
+                                <section>
+                                    <h2><a href="/_Ne-gubite-se-u-informacijama/68354">Ne gubite se u informacijama</a></h2>
+                                    <figure>
+                                        <img src="images/215x125-inf.jpg" alt="">
+                                    </figure>
+                                    <span class="news-date">11.01.2011</span>
+                                    <p class="clearfix">
+                                        Patrijarh ruski Kiril pozvao je vernike da se pažljivije odnose prema savremenom protoku informacija, 
+                                        kao i prema vrednostima koje se nameću kroz društvene... <br>
+
+                                        <a href="#" class="pull-right">[vise...]</a>
+                                    </p>
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
+                                        </ul>
+                                        <span class="comments-num pull-right">0</span>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2><a href="/_Ne-gubite-se-u-informacijama/68354">Ne gubite se u informacijama</a></h2>
+                                    <figure>
+                                        <img src="images/215x125-molitva-menja-krv-b.jpeg" alt="">
+                                    </figure>
+                                    <span class="news-date">11.01.2011</span>
+                                    <p class="clearfix">
+                                        Patrijarh ruski Kiril pozvao je vernike da se pažljivije odnose prema savremenom protoku informacija, 
+                                        kao i prema vrednostima koje se nameću kroz društvene... 
+                                        <a href="#" class="pull-right">[vise...]</a>
+                                    </p>
+                                    <div class="social-share clearfix">
+                                        <ul class=" list-inline pull-left">
+                                            <li>
+                                                <a class="twitter-share-button"
+                                                   href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354">
+                                                    Tweet</a>
+                                            </li><!--END OF TWITTER-->
+                                            <li>
+                                                <div class="g-plusone" data-size="medium"></div>
+                                            </li><!--END OF GOOGLE-PLUS-->
+                                            <li class="pinterest">
+                                                <a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                                            </li><!--END OF PINTEREST-->
+                                            <li class="facebook-share">
+                                                <div id="fb-root"></div>
+                                                <div class="fb-like" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                                <div class="fb-share-button" data-href="http://www.prijateljboziji.com/_Ne-gubite-se-u-informacijama/68354" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.prijateljboziji.com%2F_Ne-gubite-se-u-informacijama%2F68354&amp;src=sdkpreparse">Share</a></div>
+                                            </li><!--END OF FACEBOOK-->
+                                        </ul>
+                                        <span class="comments-num pull-right">0</span>
+                                    </div>  
                                 </section>
                             </div>
                             <div>
@@ -106,28 +565,381 @@ and open the template in the editor.
                         </article>
                     </div>
                     <div class="col-md-3">
-                        <article>
-                            <div id="datepicker"></div>
-                        </article>
+                        <div class="the-most">
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="most-viewed">
+                                    <ul class="most-list">
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/large.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/img1.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/large.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/img1.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/large.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/img1.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/large.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/img1.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/large.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/img1.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/large.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/img1.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/large.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/img1.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/large.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/img1.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/large.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/img1.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/large.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <figure>
+                                                <a href="#"><img src="images/img1.png" alt=""></a>
+                                            </figure>
+                                            <a href="#" class="most-news">Molitva Svetom Vasiliju Ostroškom</a>
+                                            <div class="most-info">
+                                                <a href="#" class="most-icon"><i class="fa fa-caret-down"></i><span class="most-comments">23</span></a>
+                                                <i class="fa fa-caret-down"></i><a href="#" class="most-title">vesti</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div><!--END OF SCROL-BAR-->
+                        </div>
+                        <article class="tag-bar">
+                            <div class="title gray-bg">
+                                <a href="#" class="text-uppercase title-span">tag oblak</a>
+                            </div>
+                            <ul class="tag-cloud list-unstyled list-inline">
+                                <li><a href="#"></a></li>
+                                <li><a href="#">Srbi</a></li>
+                                <li><a href="#">Bog</a></li>
+                                <li><a href="#">Pravoslavlje</a></li>
+                                <li><a href="#">Gospod</a></li>
+                                <li><a href="#">Molitva</a></li>
+                                <li><a href="#">Hrišćani</a></li>
+                                <li><a href="#">Sveti</a></li>
+                                <li><a href="#">Ikona</a></li>
+                                <li><a href="#">Moral</a></li>
+                                <li><a href="#">Božićna</a></li>
+                                <li><a href="#">poslanica</a></li>
+                                <li><a href="#">SPC</a></li>
+                                <li><a href="#">vera</a></li>
+                                <li><a href="#">Božić</a></li>
+                                <li><a href="#">Jevanđelje</a></li>
+                                <li><a href="#">dana</a></li>
+                                <li><a href="#">radosti</a></li>
+                                <li><a href="#">radost</a></li>
+                                <li><a href="#">vere</a></li>
+                                <li><a href="#">badnjak</a></li>
+                                <li><a href="#">Misionarska</a></li>
+                                <li><a href="#">pisma</a></li>
+                                <li><a href="#">Sava</a></li>
+                                <li><a href="#">lažni</a></li>
+                                <li><a href="#">nalog</a></li>
+                                <li><a href="#">Freska</a></li>
+                                <li><a href="#">Sveti</a></li>
+                                <li><a href="#">psovka</a></li>
+                                <li><a href="#">psovanje</a></li>
+                                <li><a href="#">greh</a></li>
+                                <li><a href="#">Tri priče</a></li>
+                                <li><a href="#">film</a></li>
+                                <li><a href="#">klaus kenet</a></li>
+                                <li><a href="#">SCP</a></li>
+                                <li><a href="#">Jevanđelje dana</a></li>
+                            </ul>
+                        </article><!--END OF TAG CLOUD -->
+                        <div class="row">
+                            <div class="col-sm-6 col-md-12">
+                                <article class="app-store">
+                                    <div>
+                                        <h4>Preuzmi besplatno sa AppStore-a</h4>
+                                        <a href="#"><span class="text-uppercase store-button">iphone aplikacija</span></a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-sm-6 col-md-12">
+                                <article class="google-store">
+                                    <div>
+                                        <h4>Preuzmi besplatno sa Google Play-a</h4>
+                                        <a href="#"><span class="text-uppercase store-button">iphone aplikacija</span></a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div><!--END OF APPSTORE SECTIONS-->
                     </div>
                 </div>
             </div>
         </main>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3">
+                                <article>
+                                    <div class="footer-title">
+                                        <a href="#"><h2 class="text-uppercase">fondacija</h2></a>
+                                    </div>
+                                    <ul class=" list-unstyled">
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Blagoslov</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> O nama</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Marko Sandalj-Osnivač</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Pitanja i odgovori</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Vizija fondacije</a></li>
+                                    </ul>
+                                </article>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <article>
+                                    <div class="footer-title">
+                                        <a href="#"><h2 class="text-uppercase">vesti i tekstovi</h2></a>
+                                    </div>
+                                    <ul class=" list-unstyled">
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Vesti</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Svedočanstva i čuda</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Zdravlje </a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Članci</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Za skeptike</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Besede</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Zapisi</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Kazivanja</a></li>
+                                    </ul>
+                                </article>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <article>
+                                    <div class="footer-title">
+                                        <a href="#"><h2 class="text-uppercase">sveto pismo</h2></a>
+                                    </div>
+                                    <ul class=" list-unstyled">
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Pretraga Biblije</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Jevanđelje dana</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Tumačenja </a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Lekcija (video)</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Jevanđelja po Jovanu</a></li>
+                                    </ul>
+                                </article>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <article>
+                                    <div class="footer-title">
+                                        <a href="#"><h2 class="text-uppercase">filmovi</h2></a>
+                                    </div>
+                                    <ul class=" list-unstyled">
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Filmovi</a></li>
+                                        <li><a href="#"><span class="fa fa-angle-right"></span> Video poruke</a></li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <article>
+                            <div class="footer-title">
+                                <a href="#"><h2 class="text-uppercase">knjige</h2></a>
+                            </div>
+                            <ul class=" list-unstyled">
+                                <li><a href="#"><span class="fa fa-angle-right"></span> Knjige u PDF-u</a></li>
+                                <li><a href="#"><span class="fa fa-angle-right"></span> Audio knjige</a></li>
+                                <li><a href="#"><span class="fa fa-angle-right"></span> Biblioteka</a></li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="pull-left">
+
+                        Prijatelj Božiji - Pravoslavna Fondacija © 2013. Sva prava zadržana.				
+                    </div> 
+                    <div class="pull-right">
+                        <ul class="list-inline social-bar">
+                            <li><a href="#"><span class="fa fa-facebook "></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                            <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/jQuery.scrollSpeed.js" type="text/javascript"></script>
-        <script src="js/jquery-ui.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/mainjs.js" type="text/javascript"></script><!--MAIN JS-->
-        <script>
-            $(function () {
-                $("#datepicker").datepicker({
-                    showOtherMonths: true,
-                    selectOtherMonths: true
-                });
-            });
-        </script>
+
+        <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
     </body>
 </html>

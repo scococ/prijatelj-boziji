@@ -13,6 +13,26 @@
     width: 100% !important;
     
 }
+.comment-post form{
+    padding: 15px 20px;
+    padding-top: 0px;
+}
+.comment-post label{
+    max-width: 130px !important;
+    padding-left: 20px!important;
+}
+.name-textarea{
+    padding-left: 20px !important;
+}
+.comment-post input{
+      max-width: 286px;
+}
+.comment-post textarea{
+    max-width: 460px;
+}
+.comment-post  h2{
+    text-align: initial !important;
+}
 footer{
      background-size: 5% 100% !important;
 }
@@ -31,13 +51,13 @@ footer{
     text-align: left !important;
 }
 footer .col-md-3{
-    height: 240px;
+    height: 215px;
 }
 
 }
 
 @media(min-width:1200px){
     .container{
-        width: 1010px;
+        width: 1010px !important;
     }
 }
