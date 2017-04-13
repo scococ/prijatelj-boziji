@@ -23,15 +23,53 @@ body{
 .header-bar li:last-of-type{
     border: none;
 }
+.header-bar .dropdown-menu{
+    width: 250px;
+    padding: 15px;
+    background-color: #fff!important;
+    transition: 1s ease-in-out;
+    color:#000;
+}
+.header-bar input{
+    background: #f1f1f1;
+    padding: 6px 5px;
+    margin: 0 0 5px 0;
+    border: 1px solid #ccc;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 0 1px 1px #ccc inset;
+    -webkit-box-shadow: 0 1px 1px #ccc inset;
+    box-shadow: 0 1px 1px #ccc inset;
+}
+.header-bar input:focus{
+    background-color: #fff;
+    border-color: #e8c291;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #e8c291 inset;
+    box-shadow: 0 0 0 1px #e8c291 inset;
+}
+.header-bar span{
+    position: relative;
+    top: -2px;
+    padding-left: 10px;
+}
+nav .header-bar button{
+    background: linear-gradient(#6CB7DE, #3D68B2);
+    border: none;
+    padding: 5px 25px;
+    color: white;
+}
 .navigation-header{
     width: 100%;
     margin-top: 2px;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .navigation-header figure{
     height: 86px;
-    display: inline-block;
+    display: none;
 }
 .navigation-header img{
     position: relative;
@@ -75,8 +113,12 @@ body{
     border-radius: 0px;
     width: 200px;
 }
-.dropdown-menu a{
+.dropdown-menu li a:hover{
+    background-color: #393939!important;
+}
+.dropdown-menu li a{
     color: white !important;
+    padding: 10px 10px 5px 10px !important;
 }
 .navbar-default .navbar-nav > li > a{
     color: white;
@@ -522,24 +564,32 @@ footer .col-md-3:first-of-type{
 }
 .social-share{
     border: 1px solid #d1d1d1;
-    padding: 6px 12px 6px 0px;
+    padding: 6px 12px 0px 12px;
     margin-top: 10px;
     border-radius: 3px;
     background-image: url(style-images/social-bg.png);
     background-repeat: repeat-x;
+    background-size: contain;
 }
 .social-share ul{
     margin: 0px;
-    height: 20px;
-    overflow: hidden;
 }
 .social-share ul li{
-    padding: 0px 12px;
+    padding: 0px;
+    width: 80px;
 }
 .facebook-share{
     position: relative;
     top: -5px;
+    width: 202px!important;
+    margin-top: 5px;
 }
+.pinterest{
+    position: relative;
+    top: -6px;
+    margin-top: 5px;
+}
+
 .page-overview{
     padding: 5px 10px;
     background: #fff;
@@ -613,10 +663,7 @@ footer .col-md-3:first-of-type{
     margin: 0px !important;
     font-size: 12px !important;
 }
-.pinterest{
-    position: relative;
-    top: -6px;
-}
+
 .text-frame1 h2{
     font-size: 18px;
 }
@@ -665,7 +712,8 @@ footer .col-md-3:first-of-type{
 }
 .social-share i{
     padding: 0px;
-    padding-left: 12px;
+    display: inline-block;
+    margin-bottom: 5px;
     font-size: 11px;
     text-shadow: 0px 1px 1px #fff;
 }
@@ -733,7 +781,13 @@ footer .col-md-3:first-of-type{
     padding-bottom: 16px!important;
     display: block;
 }
+.nav-tabs li a{
+    padding: 10px 0px;
+}/*------TAB SCROLL----*/
 
+#datepicker > div{
+    display: inline !important;
+}
 
 
 
