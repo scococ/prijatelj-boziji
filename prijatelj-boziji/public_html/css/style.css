@@ -24,7 +24,7 @@ body{
     border: none;
 }
 .header-bar .dropdown-menu{
-    width: 250px;
+    max-width: 250px;
     padding: 15px;
     background-color: #fff!important;
     transition: 1s ease-in-out;
@@ -51,12 +51,14 @@ body{
     box-shadow: 0 0 0 1px #e8c291 inset;
 }
 .header-bar span{
-    position: relative;
-    top: -2px;
     padding-left: 10px;
 }
-nav .header-bar button{
+ .header-bar button{
     background: linear-gradient(#6CB7DE, #3D68B2);
+    background: -webkit-linear-gradient(#6CB7DE, #3D68B2); /*  For Safari 5.1 to 6.0 */ 
+   background: -o-linear-gradient(#6CB7DE, #3D68B2); /*  For Opera 11.1 to 12.0 */
+    background:  -moz-linear-gradient(#6CB7DE, #3D68B2); 
+    background: linear-gradient(#6CB7DE, #3D68B2); /*  Standard syntax */
     border: none;
     padding: 5px 25px;
     color: white;
@@ -104,6 +106,18 @@ nav .header-bar button{
 }
 .navbar{
     margin-bottom: 0px;
+}
+.navbar-brand {
+    height: auto;
+    padding: 0px;
+}
+.navbar-header button{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 .dropdown-menu{
     background: #333 !important ;

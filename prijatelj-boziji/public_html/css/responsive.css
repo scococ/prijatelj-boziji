@@ -60,6 +60,12 @@ footer{
 .navigation-header figure{
     display: inline-block !important;  
 }
+.header-bar .dropdown-menu{
+    width: 250px;
+}
+.navbar-default .navbar-nav > li > a{
+    font-size: 12px !important;
+}
 
 }
 
@@ -76,6 +82,9 @@ footer{
 }
 footer .col-md-3{
     height: 215px;
+}
+.navbar-default .navbar-nav > li > a{
+    font-size: 14px !important;
 }
 
 
