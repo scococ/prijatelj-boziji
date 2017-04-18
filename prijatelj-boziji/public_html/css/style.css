@@ -802,6 +802,38 @@ footer .col-md-3:first-of-type{
 #datepicker > div{
     display: inline !important;
 }
+.gallery-control-1 figure{
+    display: inline-block;
+    width: 200px;
+    height: 160px;
+    border: 1px solid #E0E0E0;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.gallery-control-1 figure:hover{
+    height: 175px;
+}
+.gallery-control-1 figure img{
+    display: block;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+}
+.image-caption{
+    display: none;
+    
+}
+.gallery-control-1 figure:hover img{
+    opacity: 0.3;
+}
+.gallery-control-1 figure:hover .image-caption{
+    display: block!important;
+    transition: 4.5s ease-out;
+}
+.date-content{
+    margin: 10px 0px;
+    height: 20px;
+}
 
 
 
