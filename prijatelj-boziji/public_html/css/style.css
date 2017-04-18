@@ -53,10 +53,10 @@ body{
 .header-bar span{
     padding-left: 10px;
 }
- .header-bar button{
+.header-bar button{
     background: linear-gradient(#6CB7DE, #3D68B2);
     background: -webkit-linear-gradient(#6CB7DE, #3D68B2); /*  For Safari 5.1 to 6.0 */ 
-   background: -o-linear-gradient(#6CB7DE, #3D68B2); /*  For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(#6CB7DE, #3D68B2); /*  For Opera 11.1 to 12.0 */
     background:  -moz-linear-gradient(#6CB7DE, #3D68B2); 
     background: linear-gradient(#6CB7DE, #3D68B2); /*  Standard syntax */
     border: none;
@@ -384,7 +384,13 @@ body{
     margin-bottom: 10px;
 }
 .forum-content div{
-    padding: 10px 22px 25px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 15px;
+    width: 80%;
 }
 .misionar{
     margin-bottom: 10px;
@@ -446,6 +452,7 @@ body{
     height: 670px;
     overflow: scroll;
     transition: 1.5s ease;
+    background: #fff;
 }
 .most-list{
     list-style: none;
@@ -805,13 +812,12 @@ footer .col-md-3:first-of-type{
 .gallery-control-1 figure{
     display: inline-block;
     width: 200px;
-    height: 160px;
     border: 1px solid #E0E0E0;
     margin-left: 40px;
     margin-top: 40px;
 }
-.gallery-control-1 figure:hover{
-    height: 175px;
+.gallery-control-1 figure img:hover{
+    height: auto;
 }
 .gallery-control-1 figure img{
     display: block;
@@ -821,21 +827,36 @@ footer .col-md-3:first-of-type{
 }
 .image-caption{
     display: none;
-    
+
 }
 .gallery-control-1 figure:hover img{
     opacity: 0.3;
 }
 .gallery-control-1 figure:hover .image-caption{
     display: block!important;
-    transition: 4.5s ease-out;
 }
 .date-content{
     margin: 10px 0px;
     height: 20px;
 }
+.gallery-pagination .pagination > li > a {
+    position: relative;
+    float: none;
+    padding: 8px 12px;
+    color: graytext;
+    text-decoration: none;
+    background-color: #ecf0f1;
+    margin: 0px 2px;
+    border: none;
+    font-size: 16px;
+    top: -1px;
+    font-size: 14px;
+    border-radius: 3px;
 
-
+}
+.gallery-pagination .active{
+    background: #d9ddde !important ;
+}
 
 
 
