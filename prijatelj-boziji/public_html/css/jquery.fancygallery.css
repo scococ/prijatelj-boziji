@@ -216,7 +216,7 @@ div.fg-inline-gallery > div.fg-inline-gallery-media {
 }
 
 div.fg-inline-gallery-media > .fg-inline-gallery-preloader {
-	background: url(../images/fancygallery/preloader.gif) no-repeat;
+	background: url(style-images/preloader.gif) no-repeat;
 	width: 32px;
 	height: 32px;
 	margin: -16px 0 0 -16px;
@@ -380,7 +380,7 @@ li.fg-album-thumbnail .fg-album-thumbnail-length {
 */
 
 li.fg-album-polaroid {
-	background: url(../images/fancygallery/polaroids.png) no-repeat;
+	background: url(style-images/polaroids.png) no-repeat;
 	width: 183px;
 	height: 183px;
 	float: left;
