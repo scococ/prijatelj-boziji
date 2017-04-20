@@ -812,12 +812,16 @@ footer .col-md-3:first-of-type{
 .gallery-control-1 figure{
     display: inline-block;
     width: 200px;
+    height: 170px;
     border: 1px solid #E0E0E0;
-    margin-left: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
+    transition: height 0.5s;
+}
+
+.gallery-control-1 figure:hover{
+    height: 180px;
 }
 .gallery-control-1 figure img:hover{
-    height: auto;
 }
 .gallery-control-1 figure img{
     display: block;
@@ -827,13 +831,13 @@ footer .col-md-3:first-of-type{
 }
 .image-caption{
     display: none;
-
 }
 .gallery-control-1 figure:hover img{
     opacity: 0.3;
 }
 .gallery-control-1 figure:hover .image-caption{
     display: block!important;
+    
 }
 .date-content{
     margin: 10px 0px;
@@ -857,7 +861,15 @@ footer .col-md-3:first-of-type{
 .gallery-pagination .active{
     background: #d9ddde !important ;
 }
-
+ .control-thumbnails{
+     display: inline-block; 
+     overflow: hidden; 
+     height: 230px;
+     margin-left: 30px;
+ }
+ .control-thumbnails:first-of-type{
+     margin-left: 0px !important;
+ }
 
 
 
