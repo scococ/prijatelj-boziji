@@ -170,7 +170,7 @@ body{
 }
 
 .c1 h4, .c2 h4,.sidebar-1 h4{
-    padding: 10px 6px;
+    padding: 9px 6px;
     padding-left: 16px;
     font-weight: bold;
     color: white;
@@ -208,6 +208,11 @@ body{
     border-top: none;
     height: 200px;
     font-size: 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.sidebar-1 .gold-bg{
+    border-top: solid 1px #915f26;
 }
 .sidebar-1 figure{
     width: 40px;
@@ -810,18 +815,20 @@ footer .col-md-3:first-of-type{
     display: inline !important;
 }
 .gallery-control-1 figure{
+    position: relative;
     display: inline-block;
     width: 200px;
-    height: 170px;
+    height: 150px;
     border: 1px solid #E0E0E0;
     margin-top: 20px;
     transition: height 0.5s;
+    z-index: 100;
+    background: #fff;     
 }
 
 .gallery-control-1 figure:hover{
     height: 180px;
-}
-.gallery-control-1 figure img:hover{
+    z-index: 100;
 }
 .gallery-control-1 figure img{
     display: block;
@@ -829,15 +836,37 @@ footer .col-md-3:first-of-type{
     width: 200px;
     height: 150px;
 }
-.image-caption{
-    display: none;
-}
 .gallery-control-1 figure:hover img{
     opacity: 0.3;
+     background: #fff;
+}
+.image-caption{
+    visibility: hidden;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
 }
 .gallery-control-1 figure:hover .image-caption{
-    display: block!important;
-    
+    visibility: visible;
+    opacity: 1;
+    background: #fff;
+}
+
+.control-thumbnails{
+    display: inline-block; 
+    overflow: hidden; 
+    height: 210px;
+    margin-left: 30px;
+}
+.control-thumbnails:first-of-type{
+    margin-left: 0px !important;
+}
+.container-shadow{
+    position: absolute;
+    padding: 0px;
+    width: 100% !important;
+    height: 60px !important;
+    bottom: -23px;
+    z-index: -1;
 }
 .date-content{
     margin: 10px 0px;
@@ -856,20 +885,11 @@ footer .col-md-3:first-of-type{
     top: -1px;
     font-size: 14px;
     border-radius: 3px;
-
 }
+
 .gallery-pagination .active{
     background: #d9ddde !important ;
 }
- .control-thumbnails{
-     display: inline-block; 
-     overflow: hidden; 
-     height: 230px;
-     margin-left: 30px;
- }
- .control-thumbnails:first-of-type{
-     margin-left: 0px !important;
- }
 
 
 
