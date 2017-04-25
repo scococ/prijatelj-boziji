@@ -890,6 +890,14 @@ footer .col-md-3:first-of-type{
 .gallery-pagination .active{
     background: #d9ddde !important ;
 }
+.fg-panel h2{
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.fg-panel .date-content{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
 
 
 
