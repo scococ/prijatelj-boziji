@@ -98,9 +98,13 @@ body{
     background: url(style-images/menu-bg.png) repeat-x center top;
 }
 .navbar-default .navbar-nav>.open>a
-, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
+, .navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus{
     background: url(style-images/menu-active-bg.png) repeat-x center;
     color: white;
+}
+.navigation-control .navbar-default .navbar-nav > li > a{
+    color: white !important;
 }
 .navbar-nav li a{
     text-align: left;
@@ -305,7 +309,17 @@ body{
     font-weight: bold;
     padding: 5px 15px;
 }
-
+.bilten{
+    min-height: 175px;
+}
+.bilten-control{
+    height: 32px;
+    border: 1px solid #E0E0E0;
+    padding: 2px 10px;
+    margin: 0px;
+    position: relative;
+    width: 80%;
+}
 .bilten .title span{
     display: inline-block;
     padding: 8px;
@@ -318,18 +332,32 @@ body{
     border: 1px solid black;
     border-top: none;
     padding: 10px;
-    background: url(style-images/newsletter-bg.png) no-repeat 36px 0px;
+    background: url(style-images/newsletter-bg.png) no-repeat 0px 0px;
 }
-.bilten section:last-of-type div{
+.bilten section:last-of-type article{
     padding: 10px;
     border: 1px solid black;
     margin: 10px;
     background: #fff;
 }
 .bilten input{
-    border: 1px solid #E0E0E0;
-    padding: 2px 10px;
+    border:  1px solid red;
+    position: absolute;
     box-shadow: -1px -1px 2px #E0E0E0;
+    width: 90%;
+    top: -1px;
+    left: 0;
+    padding: 2px 5px;
+    
+}
+.bilten button{
+    position: absolute;
+    border: none;
+    right: 0;
+    font-size: 11px;
+    height: 28px;
+    top: -1px;
+    color: white;
 }
 
 .page-content div:last-of-type{
@@ -841,7 +869,7 @@ footer .col-md-3:first-of-type{
 }
 .gallery-control-1 figure:hover img{
     opacity: 0.3;
-     background: #fff;
+    background: #fff;
 }
 .image-caption{
     visibility: hidden;

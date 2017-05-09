@@ -72,6 +72,15 @@
     .navbar-default .navbar-nav > li > a{
         font-size: 12px !important;
     }
+    .navigation-control .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    
+ }
+.navigation-control  .dropdown:hover{
+    background: url(style-images/menu-active-bg.png) repeat-x center;
+    color: white;
+}
 
 
 }
