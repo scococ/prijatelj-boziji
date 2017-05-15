@@ -82,12 +82,10 @@
     color: white;
 }
 #short-background{
-    background-image:  url(style-images/bg.png)   !important ;
-    background-repeat: repeat-x;
+    background:  url(style-images/bg.png) repeat-x  !important ;
 }
 #small-background{
-    background-image:   url(style-images/header-bg.png)  !important;
-    background-repeat: no-repeat;
+    background:   url(style-images/header-bg.png) no-repeat !important;
 }
 
 
@@ -113,6 +111,9 @@
     .registration{
         padding-left: 400px;
     }
+    #bs-example-navbar-collapse-1{
+        width: 100%;
+    }
 
 
 }
@@ -125,6 +126,11 @@
         width: 960px;
         overflow: hidden;
         margin-left: 10px;
+    }
+    #bs-example-navbar-collapse-1{
+        width: 980px;
+        position: relative;
+        left: -1px;
     }
 
 }

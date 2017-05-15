@@ -18,6 +18,9 @@
 
 $(document).ready(function () {
    
+    $('.albumm').fancygallery();
+   
+   
     $('.bxslider').bxSlider({
   mode: 'fade',
   captions: true
@@ -26,6 +29,6 @@ $(document).ready(function () {
 
 
 
-    $('.albumm').fancygallery();
+    
 });
 
