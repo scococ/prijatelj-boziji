@@ -81,6 +81,14 @@
     background: url(style-images/menu-active-bg.png) repeat-x center;
     color: white;
 }
+#short-background{
+    background-image:  url(style-images/bg.png)   !important ;
+    background-repeat: repeat-x;
+}
+#small-background{
+    background-image:   url(style-images/header-bg.png)  !important;
+    background-repeat: no-repeat;
+}
 
 
 }

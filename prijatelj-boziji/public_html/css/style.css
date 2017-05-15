@@ -7,6 +7,12 @@ body{
 .header-bar{
     padding: 6px;
 }
+#short-background{
+    background: #fff;
+}
+#small-background{
+    background: #fff;
+}
 .registration{
     display: inline-block;
     margin: 0px;
@@ -15,6 +21,10 @@ body{
     margin-right: 10px;
     margin-bottom:  0px;
 
+}
+.language li:first-of-type{
+    border-right: 1px solid #51575e !important;
+    line-height: 18px;
 }
 .header-bar .registration > li{
     border-right: 1px solid #51575e;
@@ -864,9 +874,7 @@ footer .col-md-3:first-of-type{
     padding: 10px 0px;
 }/*------TAB SCROLL----*/
 
-#datepicker > div{
-    display: inline !important;
-}
+
 .gallery-control-1 figure{
     position: relative;
     display: inline-block;
