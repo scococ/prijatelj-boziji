@@ -3,14 +3,14 @@
         var x = $(window).width();
         
         if (x >= 768) {
-            $('.dropdown').hover(function() {
+            $('.navigation-control .dropdown').hover(function() {
                 $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
             }, function() {
                 $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
             });     
         }
     });
-
+   
 
 
 
@@ -22,6 +22,7 @@ $(document).ready(function () {
   mode: 'fade',
   captions: true
 });
+ 
 
 
 
