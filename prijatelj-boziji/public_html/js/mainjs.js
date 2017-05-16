@@ -17,14 +17,15 @@
 
 
 $(document).ready(function () {
-   
+   if($('.albumm').length>0){
     $('.albumm').fancygallery();
-   
-   
+   }
+   if($('.bxslider').length>0){
     $('.bxslider').bxSlider({
   mode: 'fade',
   captions: true
 });
+   }
  
 
 
